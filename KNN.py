@@ -44,8 +44,16 @@ end =  -1*(start-time.time())
 print("KNN fit in " + str(end) + " seconds\n")
 
 #Predicting test set result
+start = time.time()
+print("Predicting test set result")
 y_pred= classifier.predict(x_test)  
+end =  -1*(start-time.time())
+print("Predicted test set result in " + str(end) + " seconds\n")
 
 #Creating Confusion Matrix
+start = time.time()
+print("Creating Confusion Matrix")
 cm = confusion_matrix(y_test, y_pred)
 print(cm)
+end =  -1*(start-time.time())
+print("Confusion Matrix created in " + str(end) + " seconds\n")
