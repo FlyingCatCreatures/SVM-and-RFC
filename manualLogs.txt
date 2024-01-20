@@ -1,0 +1,22 @@
+Settings: Default
+    Test Accuracy: 0.9997265268915223
+    Precision: 0.9997220605247651
+    Recall: 0.9997265268915223
+    Test:
+    364     1305
+    23     1270828
+
+Settings: criterion='log_loss'
+    Test Accuracy: 0.9996998082544871
+    Precision: 0.9996940834851261
+    Recall: 0.9996998082544871
+
+Settings: min_samples_split=4
+    Test Accuracy: 0.9996935215163613
+    Precision: 0.9996876196578788
+    Recall: 0.9996935215163613
+
+Settings: min_samples_split=4 & criterion='log_loss'
+    Test Accuracy: 0.9997029516235502
+    Precision: 0.9996964877828582
+    Recall: 0.9997029516235502
